@@ -1,0 +1,41 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body {
+ background-color: #978ecc;
+}
+.title{
+    margin: 30px;
+    color: white;
+    font-size: 50px;
+}
+.board{
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: lightpink;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.tile{
+    height: 120px;
+    width: 120px;
+    border: 8px solid whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120px;
+    color: white;
+    cursor: pointer;
+}
+.game-status{
+    font-size: 50px;
+    margin: 20px;
+    color: white;
+}
